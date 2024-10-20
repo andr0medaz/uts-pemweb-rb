@@ -1,0 +1,39 @@
+.logo__size {
+  width: 100px;
+  height: 100px;
+}
+
+/* .border__debug {
+  border: 1px solid red;
+} */
+
+/* note: styling css tertimpa style bawaan bootstrap, non aktifkan bootstrap untuk menggunakan css table */
+
+/* Warna untuk baris ganjil */
+tbody tr:nth-child(odd) {
+  background-color: #b7e039; /
+}
+
+/* Warna untuk baris genap */
+tbody tr:nth-child(even) {
+  background-color: #c09b9b; 
+}
+
+/* hover pointer */
+tbody tr:hover {
+  background-color: #473f3f; 
+  cursor: pointer;
+}
+
+.table-container {
+  max-height: 400px; 
+  overflow-y: auto; 
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: #007bff;
+  color: white;
+  z-index: 1; 
+}
